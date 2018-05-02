@@ -22,8 +22,7 @@ markdown: kramdown
 # Append
 include:  [_ipages, _itags, _icategories, _itools]
 exclude: [backup]
-gems: [jekyll-paginate]
-
+plugins: [jekyll-paginate]
 defaults:
   -
     scope:
